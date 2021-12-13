@@ -1,0 +1,40 @@
+# section information
+section:
+  name: University
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: 985 postgraduate student
+    location: Guangzhou
+    overview: 
+  positions:
+  - designation: SUN YAT-SEN university
+    start: Sep 2019
+    responsibilities:
+    - Bioinformatic.
+    - read/write papers.
+    - develop software/package.
+- company:
+    name: 211 Undergraduate student
+    url: ""
+    location: Beijing
+    # company overview
+    overview: 
+  positions:
+  - designation: Beijing University of Chemical Technology university.
+    start: Sep 2014
+    end: Aug 2018
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Enzyme engineering
+    - Plant Sterol Ester produce line desighner
+    - Lead research.

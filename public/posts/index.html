@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Posts</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/css/plyr.css"/>
+<link rel="stylesheet" href="/css/flag-icon.min.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_2.png" />
+
+<meta property="og:title" content="Posts" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://cherryamme.github.io/posts/" />
+
+
+
+    
+    
+    <link rel="stylesheet" href="/css/layouts/list.css">
+    <link rel="stylesheet" href="/css/navigators/sidebar.css">
+    
+    <link rel="stylesheet" href="/css/style.css"/>
+
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_2.png" alt="Logo">
+      Jesse&#39;s Blog</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  
+  
+    
+  
+
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">博文</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/life_thoughts/" title="一些想法">一些想法</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/academic/" title="科研学术">科研学术</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/code_skills/">电脑技术</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/code_skills/r/" title="R语言">R语言</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/code_skills/python/" title="Python">Python</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/read_note/">读书笔记</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/code_skills/r/r-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/" title="R数据科学">R数据科学</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content container-fluid" id="content">
+    <div class="container-fluid post-card-holder" id="post-card-holder">
+      
+      
+      
+        
+          <div class="post-card">
+  <a href="/posts/code_skills/r/r-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">R数据科学</h5>
+        <p class="card-text post-summary">R数据科学 这本书是 Hadly 的著作, 学习 tidyverse 的首选参考书.
+ggplot2包 每个图层都可以设置自己的数据.
+111
+buxma
+geom_bar() 有三种方式: &ldquo;identity&rdquo;, &ldquo;fill&rdquo;, &ldquo;dodge&rdquo;
+配色方案 dplyr包 select()辅助函数: starts_with(), contains(), match(), everthing()等.
+rename(): 修改列名
+偏移函数 lag(), lead(): 在group_by()中特别有用
+排秩函数 min_rank(), row_number(), dense_rank(), percent_rank(), cume_dist()
+summarize()摘要函数: mean(), median(), min(), max(), first(), last(), nth(x,2), n_distinct(),
+forcats包 fct_recode(): 修改因子水平名称
+fct_collapse(): 合并不同因子水平
+管道使用 编写适配管道的函数 循环迭代 循环时最好提前定义好变量空间,用[[]]赋值, 在原子向量中也明确使用[[]]表示处理单个元素.
+循环索引使用 seq_along()更好.
+使用 purrrr map()
+map2()
+pmap()
+invoke_map()
+预测函数 keep(), discard(), some(), every()
+使用列表列 创建列表列: nest(), mutate(), summarize()</p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">December 14, 2021</span>
+        <a
+        href="/posts/code_skills/r/r-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/"
+        class="float-right btn btn-outline-info btn-sm"
+        >阅读</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="post-card">
+  <a href="/posts/read_note/r-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">R数据科学</h5>
+        <p class="card-text post-summary">R数据科学 这本书是 Hadly 的著作, 学习 tidyverse 的首选参考书.
+ggplot2包 每个图层都可以设置自己的数据.
+111
+buxma
+geom_bar() 有三种方式: &ldquo;identity&rdquo;, &ldquo;fill&rdquo;, &ldquo;dodge&rdquo;
+配色方案 dplyr包 select()辅助函数: starts_with(), contains(), match(), everthing()等.
+rename(): 修改列名
+偏移函数 lag(), lead(): 在group_by()中特别有用
+排秩函数 min_rank(), row_number(), dense_rank(), percent_rank(), cume_dist()
+summarize()摘要函数: mean(), median(), min(), max(), first(), last(), nth(x,2), n_distinct(),
+forcats包 fct_recode(): 修改因子水平名称
+fct_collapse(): 合并不同因子水平
+管道使用 编写适配管道的函数 循环迭代 循环时最好提前定义好变量空间,用[[]]赋值, 在原子向量中也明确使用[[]]表示处理单个元素.
+循环索引使用 seq_along()更好.
+使用 purrrr map()
+map2()
+pmap()
+invoke_map()
+预测函数 keep(), discard(), some(), every()
+使用列表列 创建列表列: nest(), mutate(), summarize()</p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">December 14, 2021</span>
+        <a
+        href="/posts/read_note/r-%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/"
+        class="float-right btn btn-outline-info btn-sm"
+        >阅读</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+    </div>
+    <div class="paginator">
+      
+    </div>
+  </div>
+</section>
+
+
+      
+       
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>导航</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://cherryamme.github.io#about">关于我</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://cherryamme.github.io#skills">技能</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://cherryamme.github.io#experiences">教育经历</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://cherryamme.github.io#projects">项目</a>
+                </li>
+              
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://cherryamme.github.io#achievements">生活碎片</a>
+                </li>
+              
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>联系方式:</h5>
+          <ul>
+            
+              
+                <li><span>QQ: </span> <span>1102141133</span></li>
+              
+            
+              
+                <li><a href=mailto:cherryamme@163.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>cherryamme@163.com</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://github.com/cherryamme target="_blank" rel="noopener">
+                  <span><i class="fab fa-github"></i></span> <span>cherryamme</span>
+                </a></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+          
+          <div class="col-md-4 col-sm-12">
+            <p>通过电子邮件接收最新信息</p>
+            
+              <form method='post' action='https://blogtrottr.com'>
+              <div class="form-group">
+              <input type='email' class="form-control" name='btr_email' placeholder="填入 E-mail"/><br />
+              <input type='hidden' name='btr_url' value='https://cherryamme.github.ioindex.xml' />
+              <input type='hidden' name='schedule_type' value='1' />
+              <small id="emailHelp" class="form-text text-muted">输入您的电子邮件地址，即表示您同意接收本网站的时事通讯</small>
+              <button type="submit" class="btn btn-info"> 提交 </button>
+              </form>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_2.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2022 Copyright.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/navbar.js"></script>
+<script type="text/javascript" src="/js/plyr.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+    
+    
+    <script src="/js/list.js"></script>
+
+  </body>
+</html>

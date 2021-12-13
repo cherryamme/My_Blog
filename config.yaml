@@ -1,0 +1,131 @@
+baseURL: https://cherryamme.github.io
+
+languageCode: zh-CN 
+DefaultContentLanguage: zh-cn
+title: "Jesse's Blog"
+theme: "toha"
+
+# frontmatter:
+#   date: [":filename","date","publishDate","lastmod"]
+#   lastmod: [":fileModTime",":git","lastmod","date","publishDate"]
+#   publishDate: ["publishDate","date"]
+#   expiryDate: "expiryDate"
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+languages:
+  zh-CN:
+    languageName: 简体中文
+    weight: 1
+  en:
+    languageName: English
+    weight: 5
+
+  
+
+# Control TOC depth
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+  goldmark:
+    renderer:
+      unsafe: true
+# At least HTML and JSON are required for the main HTML content and
+# client-side JavaScript search
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+
+# Enable global emoji support
+enableEmoji: true
+
+# Site parameters
+params:
+#background picture
+  background: images/bg/1.jpg
+  logo:
+    main: images/bg/favicon.png
+    inverted: images/bg/favicon.png
+    favicon: images/bg/favicon.png
+  # GitHub repo URL and branch of your site
+  gitRepo: https://github.com/cherryamme
+  gitBranch: main
+
+  # specify whether you want to write some blog posts or not
+  enableBlogPost: true
+
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC: true
+
+   Configure various features of this theme
+  features:
+    # Enable and configure portfolio
+    portfolio:
+      enable: true
+    # Enable and configure blog posts
+    blog:
+      enable: true
+      # Share post on different social media
+      shareButtons:
+        facebook: true
+        twitter: true
+        # linkedin: true
+        # reddit: true
+        whatsapp: true
+        email: true
+        # tumblr: true
+        # pocket: true
+        # diaspora: true
+        # mastodon: true
+
+    # Enable & configure "Notes" features
+    notes:
+      enable: true
+      
+    docs:
+      enable: true
+    # Enable comment feature. There, should be only one of them.
+    comment:
+      enable: true
+      # disqus:
+      #   shortName: toha-example-site
+      valine:
+        appId: QAj2cICayfTkJbA7Ny02UYsx-gzGzoHsz
+        appKey: IrOzgQFkM9tsTr7HkdSdPAOh
+        avatar: monsterid
+        placeholder: Share your thought.
+        lang: en
+        recordIP: true
+        enableQQ: true
+        visitor: true
+      # utteranc:
+      #   repo: github.com/hugo-toha/hugo-toha.github.io
+      #   issueTerm: title
+      #   theme: github-light
+
+
+
+
+
+
+
+
+  # Provide newsletter configuration. 
+  # This feature has been implemented for Mailchimp only for now.
+  # You can also hide it from the footer.
+  newsletter:
+    # specify whether you want to display the newsletter form 
+    enable: true
+    # specify which newsletter provider you want to use
+    provider: mailchimp
+    # specify the target URL for the subscription form
+    mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
+  
+  
+  
+  # The inverted logo will be used in the initial transparent navbar and
+  # the main logo will be used in the non-transparent navbar.
+

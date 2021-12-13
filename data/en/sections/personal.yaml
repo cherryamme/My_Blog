@@ -1,0 +1,27 @@
+# section information
+section:
+  name: Life Cut
+  id: achievements
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: Mountain
+  image: /images/sections/personal/IMG_1456.JPG
+  summary: climb Mountain.
+- title: Mountain
+  image: /images/sections/personal/IMG_1446.JPG
+  summary: climb Mountain.
+- title: Do cake
+  image: /images/sections/personal/IMG_0447.JPG
+  summary: Do cake
+# - title: Do cake
+#   image: /images/sections/personal/IMG_0447.JPG
+#   summary: Do cake
+# - title: Award Winner
+#   image: /images/sections/achievements/woman-winner.jpg
+#   summary: Wined best paper award at IEE Conference 2020.

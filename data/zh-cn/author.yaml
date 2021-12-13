@@ -1,0 +1,20 @@
+# some information about you
+name: "Jesse"
+nickname: "姜辰"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "😉Hello,我是"
+image: "images/author/lixing.gif"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "cherryamme@163.com"
+  QQ: "1102141133"
+  github: "cherryamme"
+
+
+# some summary about what you do
+summary:
+  - 今天天气不错🌞
+  - 有点想你~~~😘
+  - 跟我一起学习吧💻
+  - 学完就去吃绵绵冰🍨
+  - 和你一起🛴🛴🛴

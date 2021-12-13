@@ -1,0 +1,75 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: 👨‍🎓Bioinformatic postgraduate student
+# your company information
+company:
+  name: SYSU.
+  url: "https://www.sysu.edu.cn"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am a Bioinformatic postgraduate student with 3 years of research experience.
+ I study in [SYSU university]("https://www.sysu.edu.cn") major in [Bioinformatic](https://zh.wikipedia.org/wiki/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6).
+  My tools help people to discover relationships between human and diseases.
+   Sometimes, I work on some fun projects such as develop a R package, etc.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/cherryamme"
+
+- name: Email
+  icon: "fas fa-envelope"
+  url: "cherryamme@163.com"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/5B9gZr1ZD80w2M4"
+
+- name: Weibo
+  icon: "fab fa-weibo"
+  url: "https://weibo.com/u/5995296451"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: shell🐣
+  percentage: 80
+  color: green
+- name: Python🐍
+  percentage: 70
+  color: yellow
+- name: R🐳
+  percentage: 80
+  color: blue
+
+
+
+badges:
+- type: certification
+  name: Linux shell
+  url: "https://www.linux.org/"
+  badge: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Icons8_flat_linux.svg/1024px-Icons8_flat_linux.svg.png"
+
+- type: certification
+  name: Python language
+  url: "https://www.python.org/"
+  badge: "https://img.icons8.com/dusk/2x/python.png"
+
+- type: certification
+  name: R language
+  url: "https://www.r-project.org/"
+  badge: "http://pngimg.com/uploads/letter_r/letter_r_PNG93952.png"

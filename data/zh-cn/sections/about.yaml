@@ -1,0 +1,75 @@
+# section information
+section:
+  name: 关于我
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: 👨‍🎓生物信息学 硕士研究生
+# your company information
+company:
+  name: 中山大学.
+  url: "https://www.sysu.edu.cn"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: '我是  姜辰  ，正在[中山大学]("https://www.sysu.edu.cn")专业攻读生物信息学硕士，目前已经研三啦💪💪💪
+我的专业在于发现人类和疾病之间的关系，解释疾病(一般为癌症)机理，攻克疾病。
+兴趣是钻研电脑技术。
+有时，我在一些有趣的项目上工作，如模型预测、开发R包等。'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/cherryamme"
+
+- name: Email
+  icon: "fas fa-envelope"
+  url: "cherryamme@163.com"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/5B9gZr1ZD80w2M4"
+
+- name: Weibo
+  icon: "fab fa-weibo"
+  url: "https://weibo.com/u/5995296451"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: shell🐣
+  percentage: 80
+  color: green
+- name: Python🐍
+  percentage: 70
+  color: yellow
+- name: R🐳
+  percentage: 80
+  color: blue
+
+
+
+badges:
+- type: certification
+  name: Linux shell
+  url: "https://www.linux.org/"
+  badge: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Icons8_flat_linux.svg/1024px-Icons8_flat_linux.svg.png"
+
+- type: certification
+  name: Python language
+  url: "https://www.python.org/"
+  badge: "https://img.icons8.com/dusk/2x/python.png"
+
+- type: certification
+  name: R language
+  url: "https://www.r-project.org/"
+  badge: "http://pngimg.com/uploads/letter_r/letter_r_PNG93952.png"

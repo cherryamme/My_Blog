@@ -1,0 +1,22 @@
+# Copyright Notice
+copyright: © 2022 Copyright.
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: Portfolio and personal blog of Jesse.
+
+
+
+# specify the list of custom menus that you want to show in the top navbar.
+# they will be separated by a divider from the main menus.
+customMenus:
+- name: Github
+  url: https://github.com/cherryamme
+
+
+# Specify OpenGraph Headers
+openGraph:
+  title: Jesse's Blog
+  type: website
+  description: 姜辰姜辰的个人Blog.
+  image: images/bg/1.png
+  url: https://cherryamme.com

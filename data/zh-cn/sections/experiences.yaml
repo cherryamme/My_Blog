@@ -1,0 +1,40 @@
+# section information
+section:
+  name: 教育经历
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: 985 硕士研究生
+    location: 广州
+    overview: 
+  positions:
+  - designation: 中山大学
+    start: Sep 2019
+    responsibilities:
+    - 🏫生物信息学研究.
+    - 📚阅读了大量文献，了解最新科研进展.
+    - 🔨开发单细胞病毒研究流程.
+- company:
+    name: 211 本科学士
+    url: ""
+    location: 北京
+    # company overview
+    overview: 
+  positions:
+  - designation: 北京化工大学
+    start: Sep 2014
+    end: Aug 2018
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - 🍪酶工程。
+    - 🌱植物甾醇酯研究设计及工厂放大。
+    - 🧼PDMS改性膜制备.

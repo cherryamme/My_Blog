@@ -1,0 +1,39 @@
+# section information
+section:
+  name: 技能
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: R language
+  logo: "/images/sections/skills/Rlogo.png"
+  summary: "R是统计计算和图形的语言和环境。🛠，也是我的主力数据科学语言。主要用它来做数据相关的操作，如机器学习、可视化等。
+  最近用它写了个R包😎(得意)，包里用了闭包,S3对象等用法,之后尝试用S4对象和非标准计算法。"
+  url: "https://www.r-project.org/"
+
+- name: Python
+  logo: "images/sections/skills/Python_logo_icon.png"
+  summary: "Python🐍一直是大热语言，因为在数据科学邻域的应用广泛，对于我来说这是必不可少的技能。虽然与R会有很大的技术重叠。"
+  url: "https://www.python.org/"
+
+- name: Tableau
+  logo: "images/sections/skills/tableau2.svg"
+  summary: "Tableau✨是数据可视化的优秀软件，从数据源到报表分享一站式完成，当然得掌握，虽然要钱，在试用期内狠学了一把。"
+  url: "https://www.tableau.com/"
+
+
+- name: MySQL
+  logo: "images/sections/skills/mySQL2.png"
+  summary: "MySQL是数据库语言，目前暂时没有需要用的的地方，但是必须得会，仅限于自己电脑💻装了一个然后练习四种操作命令：DDl,DML,DCL,DQL"
+  url: "https://www.tableau.com/"
+
+
+- name: Linux shell
+  logo: "/images/sections/skills/linux3.png"
+  summary: "Linux 当然不用说啦，最早接触的环境，啥都要在服务器上跑🧐(PS：现在有windows的服务器吗?)"

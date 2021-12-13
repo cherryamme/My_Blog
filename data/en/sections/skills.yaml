@@ -1,0 +1,47 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: R language
+  logo: "/images/sections/skills/Rlogo.png"
+  summary: "R is a language and environment for statistical computing and graphics.
+   It is a GNU project which is similar to the S language and environment.
+    R can be considered as a different implementation of S."
+  url: "https://www.r-project.org/"
+
+- name: Python
+  logo: "images/sections/skills/Python_logo_icon.png"
+  summary: "Python is powerful... and fast;
+    plays well with others;
+    runs everywhere;
+    is friendly & easy to learn;
+    is Open."
+  url: "https://www.python.org/"
+
+- name: Tableau
+  logo: "images/sections/skills/tableau2.svg"
+  summary: "Tableau helps people and organizations be more data-driven."
+  url: "https://www.tableau.com/"
+
+
+- name: MySQL
+  logo: "images/sections/skills/mySQL2.png"
+  summary: "Many of the world's largest and fastest-growing organizations including Facebook,
+   Twitter, Booking.com, and Verizon rely on MySQL to save time and money powering their high-volume Web sites,
+   business-critical systems and packaged software."
+  url: "https://www.tableau.com/"
+
+
+- name: Linux shell
+  logo: "/images/sections/skills/linux3.png"
+  summary: "Linux has been around since the mid-1990s and has since reached a user-base that spans the globe.
+   It also runs most of the Internet, all of the world’s top 500 supercomputers, and the world’s stock exchanges."
