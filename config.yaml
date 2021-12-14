@@ -4,6 +4,7 @@ languageCode: zh-CN
 DefaultContentLanguage: zh-cn
 title: "Jesse's Blog"
 theme: "toha"
+publishDir: "docs" 
 
 frontmatter:
   date: [":filename","date","publishDate","lastmod"]
