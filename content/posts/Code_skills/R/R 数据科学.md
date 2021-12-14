@@ -24,16 +24,16 @@ menu:
 
 每个图层都可以设置自己的数据.
 
-![1](img_R_数据科学/image-20211210162952819.png)
+![1](/img_R_数据科学/image-20211210162952819.png)
 
 111 
 
 
-![2](images/virus_PNG.png)
+![2](/images/virus_PNG.png)
 
 buxma
 
-![image-20211210162952819](img_R_数据科学/image-20211210162952819.png)
+![image-20211210162952819](/img_R_数据科学/image-20211210162952819.png)
 
 `geom_bar()` 有三种方式: "identity",  "fill",  "dodge"
 

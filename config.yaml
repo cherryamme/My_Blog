@@ -1,4 +1,4 @@
-baseURL: https://cherryamme.github.io
+baseURL: https://cherryamme.com
 
 languageCode: zh-CN 
 DefaultContentLanguage: zh-cn
@@ -51,8 +51,8 @@ params:
     inverted: images/bg/favicon.png
     favicon: images/bg/favicon.png
   # GitHub repo URL and branch of your site
-  gitRepo: https://github.com/cherryamme
-  gitBranch: main
+  gitRepo: https://github.com/cherryamme/cherryamme.github.io
+  gitBranch: gh-pages
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true
