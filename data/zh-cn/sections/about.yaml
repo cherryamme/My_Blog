@@ -15,7 +15,7 @@ company:
   url: "https://www.sysu.edu.cn"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+resume: "upgrading.gif"
 
 # a summary about you
 summary: '我是  姜辰  ，正在[中山大学]("https://www.sysu.edu.cn")专业攻读生物信息学硕士，目前已经研三啦💪💪💪
