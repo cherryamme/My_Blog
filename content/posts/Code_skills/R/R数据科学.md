@@ -1,14 +1,20 @@
 ---
 title: R数据科学
 description: Description
-date: 2021-12-14T03:23:22+08:00
+date: 2021-12-12T03:23:22+08:00
+lastmod: 2021-12-14T03:23:22+08:00
+summary: 这本书是 Hadly 的著作,  学习 tidyverse 的首选参考书.
 weight: 20
+# theme: Toha
 menu:
   sidebar:
     name: R数据科学
     identifier: R数据科学
     parent: 读书笔记
     weight: 20
+hero: images/posts/car.jpg
+tags: ["Markdown","Content Organization","Multi-lingual"]
+categories: ["Basic"]
 ---
 
 
@@ -17,21 +23,13 @@ menu:
 这本书是 Hadly 的著作,  学习 tidyverse 的首选参考书.
 
 
-
-
-
 ## ggplot2包
 
 每个图层都可以设置自己的数据.
 
 ![1](/img_R_数据科学/image-20211210162952819.png)
 
-111 
 
-
-![2](/images/virus_PNG.png)
-
-buxma
 
 ![image-20211210162952819](/img_R_数据科学/image-20211210162952819.png)
 
@@ -41,7 +39,7 @@ buxma
 
 ### 配色方案
 
-![image-20211210183521408](img_R_数据科学/image-20211210183521408.png)
+![image-20211210183521408](/img_R_数据科学/image-20211210183521408.png)
 
 
 
@@ -75,19 +73,19 @@ buxma
 
 `fct_recode()`:  修改因子水平名称
 
-![image-20211210172723259](img_R_数据科学/image-20211210172723259.png)
+![image-20211210172723259](/img_R_数据科学/image-20211210172723259.png)
 
 `fct_collapse()`:  合并不同因子水平
 
-![image-20211210172625188](img_R_数据科学/image-20211210172625188.png)
+![image-20211210172625188](/img_R_数据科学/image-20211210172625188.png)
 
 ## 管道使用
 
-![image-20211210173053241](img_R_数据科学/image-20211210173053241.png)
+![image-20211210173053241](/img_R_数据科学/image-20211210173053241.png)
 
 ### 编写适配管道的函数
 
-![image-20211210173630001](img_R_数据科学/image-20211210173630001.png)
+![image-20211210173630001](/img_R_数据科学/image-20211210173630001.png)
 
 
 
@@ -99,7 +97,7 @@ buxma
 
 循环索引使用 `seq_along()`更好.
 
-![image-20211210174457601](img_R_数据科学/image-20211210174457601.png)
+![image-20211210174457601](/img_R_数据科学/image-20211210174457601.png)
 
 
 
@@ -111,21 +109,21 @@ buxma
 
 `map2()`
 
-![image-20211210175709546](img_R_数据科学/image-20211210175709546.png)
+![image-20211210175709546](/img_R_数据科学/image-20211210175709546.png)
 
 `pmap()`
 
-![image-20211210175802056](img_R_数据科学/image-20211210175802056.png)
+![image-20211210175802056](/img_R_数据科学/image-20211210175802056.png)
 
 `invoke_map()`
 
-![image-20211210175830654](img_R_数据科学/image-20211210175830654.png)
+![image-20211210175830654](/img_R_数据科学/image-20211210175830654.png)
 
 #### 预测函数
 
 `keep()`,  `discard()`,  `some()`,  `every()`
 
-![image-20211210175907866](img_R_数据科学/image-20211210175907866.png)
+![image-20211210175907866](/img_R_数据科学/image-20211210175907866.png)
 
 
 
@@ -151,14 +149,14 @@ buxma
 - message
 - warning
 
-![image-20211210182743784](img_R_数据科学/image-20211210182743784.png)
+![image-20211210182743784](/img_R_数据科学/image-20211210182743784.png)
 
 简要图:
 
-![image-20211210182815602](img_R_数据科学/image-20211210182815602.png)
+![image-20211210182815602](/img_R_数据科学/image-20211210182815602.png)
 
 ### rmarkdown 设置缓存
 
 避免运行花费太多时间
 
-![image-20211210183257320](img_R_数据科学/image-20211210183257320.png)
+![image-20211210183257320](/img_R_数据科学/image-20211210183257320.png)

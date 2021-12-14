@@ -5,11 +5,11 @@ DefaultContentLanguage: zh-cn
 title: "Jesse's Blog"
 theme: "toha"
 
-# frontmatter:
-#   date: [":filename","date","publishDate","lastmod"]
-#   lastmod: [":fileModTime",":git","lastmod","date","publishDate"]
-#   publishDate: ["publishDate","date"]
-#   expiryDate: "expiryDate"
+frontmatter:
+  date: [":filename","date","publishDate","lastmod"]
+  lastmod: [":fileModTime",":git","lastmod","date","publishDate"]
+  publishDate: ["publishDate","date"]
+  expiryDate: "expiryDate"
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
@@ -45,14 +45,14 @@ enableEmoji: true
 # Site parameters
 params:
 #background picture
-  background: images/bg/1.jpg
+  background: images/bg/car.jpg
   logo:
     main: images/bg/favicon.png
     inverted: images/bg/favicon.png
     favicon: images/bg/favicon.png
   # GitHub repo URL and branch of your site
-  gitRepo: https://github.com/cherryamme/cherryamme.github.io
-  gitBranch: gh-pages
+  gitRepo: https://github.com/cherryamme
+  gitBranch: main
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true

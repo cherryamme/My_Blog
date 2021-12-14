@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cherryamme.github.io/en/categories/</loc>
+    <loc>https://cherryamme.com/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://cherryamme.github.io/categories/"
+                href="https://cherryamme.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cherryamme.github.io/en/categories/"
+                href="https://cherryamme.com/en/categories/"
                 />
   </url><url>
-    <loc>https://cherryamme.github.io/en/</loc>
+    <loc>https://cherryamme.com/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://cherryamme.github.io/"
+                href="https://cherryamme.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cherryamme.github.io/en/"
+                href="https://cherryamme.com/en/"
                 />
   </url><url>
-    <loc>https://cherryamme.github.io/en/tags/</loc>
+    <loc>https://cherryamme.com/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://cherryamme.github.io/tags/"
+                href="https://cherryamme.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://cherryamme.github.io/en/tags/"
+                href="https://cherryamme.com/en/tags/"
                 />
   </url>
 </urlset>

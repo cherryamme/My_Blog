@@ -53,7 +53,7 @@
 
 .post-summary {
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-overflow: clips;
   display: -webkit-box;
   max-height: 144px;
   /* fallback */
