@@ -31,7 +31,7 @@
   
   
 
-  <link rel="icon" type="image/png" href="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_3.png" />
+  <link rel="icon" type="image/png" href="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_2.png" />
 
 <meta property="og:title" content="ViVan软件使用说明" />
 <meta property="og:description" content="ViVan是检测病毒基因组DNA突变的软件,原先软件为python2.6版本编写，*该版本py脚本已经被我改为3.X版本。* 可能会引发一些未知的问题。" />
@@ -100,7 +100,7 @@
     </button>
     <a class="navbar-brand" href="/">
       
-        <img src="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_3.png" alt="Logo">
+        <img src="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_2.png" alt="Logo">
       Jesse&#39;s Blog</a>
     <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
       <span class="navbar-toggler-icon"></span>
@@ -114,10 +114,10 @@
   </div>
   
   
-    <img src="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+    <img src="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
   
   
-    <img src="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+    <img src="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
   
 </nav>
 
@@ -208,6 +208,31 @@
   
     
     <li><a class="active" href="/posts/code_skills/python/vivan%E4%BD%BF%E7%94%A8/" title="ViVan软件使用说明">ViVan软件使用说明</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/code_skills/code_note/">Code Notes</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/code_skills/code_note/%E4%BB%80%E4%B9%88%E6%98%AF%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" title="什么是正则表达式">什么是正则表达式</a></li>
   
 
 
@@ -330,7 +355,7 @@
 <p>./sample-configuration-file</p>
 <h3 id="输入样本信息">输入样本信息</h3>
 <p>参照样例,以如下格式修改: 脚本扫描(#samples_start)起始行,(#samples_end)终止行，第二列为分组，中间以/t分割，单端测序只需一个文件.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">#samples_start
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">#samples_start
 sample1	male	/home/jc/b2/SRR3105190_R1.fastq	/home/jc/b2/SRR3105190_R2.fastq	
 sample2	male	/home/jc/b2/SRR3105191_R1.fastq	/home/jc/b2/SRR3105191_R2.fastq	
 sample3	female	/home/jc/b2/SRR3105192_R1.fastq	/home/jc/b2/SRR3105192_R2.fastq
@@ -338,29 +363,29 @@ sample4	female	/home/jc/b2/SRR3105193_R1.fastq	/home/jc/b2/SRR3105193_R2.fastq
 #samples_end
 </code></pre></div><h3 id="输入样本比对索引信息">输入样本比对索引信息</h3>
 <p>参照样例,以如下格式修改: 脚本扫描(#referencesNfeatures_start)起始行,(#referencesNfeatures_end)终止行，第三列为蛋白特征CDS文件，中间以/t分割</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">#referencesNfeatures_start
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">#referencesNfeatures_start
 male	/home/jc/ViVan/00_reference/GCF_000861825.2_ViralProj15428_genomic.fna	/home/jc/ViVan/ViVan-source-py3.9-jc/sample-features-file
 female	/home/jc/ViVan/00_reference/GCF_000861825.2_ViralProj15428_genomic.fna	/home/jc/ViVan/ViVan-source-py3.9-jc/sample-features-file
 #referencesNfeatures_end
 </code></pre></div><h3 id="筛选阈值">筛选阈值</h3>
 <p>参照样例,以如下格式修改: 脚本扫描(#filters_start)起始行,(#filters_end)终止行，中间以/t分割</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">#filters_start
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">#filters_start
 coverage	10
 pval	0.05
 #filters_end
 </code></pre></div><h2 id="feature文件">feature文件</h2>
 <p>./sample-features-file</p>
 <p>脚本扫描省略#开头的行，在之后输入与reference对应的基因组的GTF内蛋白注释文件</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">NC_003977.2_Hepatitis_B_virus_(strain_ayw)_genome	2850	3179	CDS-HBVgp2
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">NC_003977.2_Hepatitis_B_virus_(strain_ayw)_genome	2850	3179	CDS-HBVgp2
 NC_003977.2_Hepatitis_B_virus_(strain_ayw)_genome	1376	1837	CDS-HBVgp3
 NC_003977.2_Hepatitis_B_virus_(strain_ayw)_genome	1816	2451	CDS-HBVgp4
 </code></pre></div><h2 id="运行示例">运行示例:</h2>
 <p>在工作目录下运行：
 如果输入文件为fastq，则-a参数为必需，即打开bwa比对，samtools index、sort、mpileup。
 -f 后输入config文件，-c参数表示reads经过修剪和去接头</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">python completeAnalysis.py -c -I -a -f sample-configuration-file
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">python completeAnalysis.py -c -I -a -f sample-configuration-file
 </code></pre></div><h2 id="内置参数解析">内置参数解析</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt"> -f : The configuration file (see example and fill accordingly)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt"> -f : The configuration file (see example and fill accordingly)
  -c : Add this argument if adapter clipping and quality trimming should are required prior to alignment
  -a : Add this argument if the input is sequence data and requires both alignment and pileup
  -p : Skip alignment and only perform pileup
@@ -462,6 +487,9 @@ NC_003977.2_Hepatitis_B_virus_(strain_ayw)_genome	1816	2451	CDS-HBVgp4
   
   
 
+  
+  
+
 
 <div class="row next-prev-navigator">
   
@@ -478,9 +506,9 @@ NC_003977.2_Hepatitis_B_virus_(strain_ayw)_genome	1816	2451	CDS-HBVgp4
         
       
       <div class="col-md-6 next-article">
-        <a href="/posts/code_skills/r/r%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/" title="R数据科学" class="btn btn-outline-info">
+        <a href="/posts/code_skills/code_note/%E4%BB%80%E4%B9%88%E6%98%AF%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" title="什么是正则表达式" class="btn btn-outline-info">
           <div>下一篇 <i class="fas fa-chevron-circle-right"></i></div>
-          <div class="next-prev-text">R数据科学</div>
+          <div class="next-prev-text">什么是正则表达式</div>
         </a>
       </div>
     
@@ -726,7 +754,7 @@ NC_003977.2_Hepatitis_B_virus_(strain_ayw)_genome	1816	2451	CDS-HBVgp4
       <div class="row text-left">
         <div class="col-md-4">
           <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
-            <img src="/images/sections/project/favicon%2818%29%281%29_hu7d4fae40c1668230b81b6160725aea6c_24732_32x0_resize_box_3.png" alt="Toha Theme Logo">
+            <img src="/images/sections/project/favicon%2818%29%281%29_hu7d4fae40c1668230b81b6160725aea6c_24732_32x0_resize_box_2.png" alt="Toha Theme Logo">
             Jesse
           </a>
         </div>

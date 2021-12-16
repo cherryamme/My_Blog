@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://cherryamme.com/posts/code_skills/code_note/%E4%BB%80%E4%B9%88%E6%98%AF%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</loc>
+    <lastmod>2021-12-16T13:59:19+08:00</lastmod>
+  </url><url>
     <loc>https://cherryamme.com/posts/code_skills/python/vivan%E4%BD%BF%E7%94%A8/</loc>
     <lastmod>2021-12-14T17:44:23+08:00</lastmod>
   </url><url>
@@ -9,10 +12,13 @@
     <lastmod>2021-12-14T17:34:45+08:00</lastmod>
   </url><url>
     <loc>https://cherryamme.com/posts/code_skills/r/r%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/</loc>
-    <lastmod>2021-12-14T17:09:32+08:00</lastmod>
+    <lastmod>2021-12-15T17:17:03+08:00</lastmod>
   </url><url>
     <loc>https://cherryamme.com/notes/go/go/</loc>
     <lastmod>2021-12-14T17:09:32+08:00</lastmod>
+  </url><url>
+    <loc>https://cherryamme.com/posts/code_skills/code_note/</loc>
+    <lastmod>2021-12-16T13:55:16+08:00</lastmod>
   </url><url>
     <loc>https://cherryamme.com/posts/code_skills/python/</loc>
     <lastmod>2021-12-14T17:09:32+08:00</lastmod>
@@ -123,14 +129,11 @@
     <lastmod>2021-12-13T20:48:02+08:00</lastmod>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://cherryamme.com/tags/academic/</loc>
-    <lastmod>2021-12-14T17:44:23+08:00</lastmod>
-  </url><url>
     <loc>https://cherryamme.com/categories/basic/</loc>
-    <lastmod>2021-12-14T17:44:23+08:00</lastmod>
+    <lastmod>2021-12-16T13:59:19+08:00</lastmod>
   </url><url>
     <loc>https://cherryamme.com/categories/</loc>
-    <lastmod>2021-12-14T17:44:23+08:00</lastmod>
+    <lastmod>2021-12-16T13:59:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -142,8 +145,11 @@
                 href="https://cherryamme.com/categories/"
                 />
   </url><url>
+    <loc>https://cherryamme.com/tags/content-organization/</loc>
+    <lastmod>2021-12-16T13:59:19+08:00</lastmod>
+  </url><url>
     <loc>https://cherryamme.com/</loc>
-    <lastmod>2021-12-14T17:46:55+08:00</lastmod>
+    <lastmod>2021-12-16T13:59:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -156,13 +162,10 @@
                 />
   </url><url>
     <loc>https://cherryamme.com/tags/markdown/</loc>
-    <lastmod>2021-12-14T17:44:23+08:00</lastmod>
-  </url><url>
-    <loc>https://cherryamme.com/tags/python/</loc>
-    <lastmod>2021-12-14T17:44:23+08:00</lastmod>
+    <lastmod>2021-12-16T13:59:19+08:00</lastmod>
   </url><url>
     <loc>https://cherryamme.com/tags/</loc>
-    <lastmod>2021-12-14T17:44:23+08:00</lastmod>
+    <lastmod>2021-12-16T13:59:19+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -174,11 +177,14 @@
                 href="https://cherryamme.com/tags/"
                 />
   </url><url>
-    <loc>https://cherryamme.com/tags/content-organization/</loc>
-    <lastmod>2021-12-14T17:34:45+08:00</lastmod>
+    <loc>https://cherryamme.com/tags/academic/</loc>
+    <lastmod>2021-12-14T17:44:23+08:00</lastmod>
+  </url><url>
+    <loc>https://cherryamme.com/tags/python/</loc>
+    <lastmod>2021-12-14T17:44:23+08:00</lastmod>
   </url><url>
     <loc>https://cherryamme.com/tags/multi-lingual/</loc>
-    <lastmod>2021-12-14T17:09:32+08:00</lastmod>
+    <lastmod>2021-12-15T17:17:03+08:00</lastmod>
   </url><url>
     <loc>https://cherryamme.com/notes/fast/</loc>
     <lastmod>2021-12-14T17:09:32+08:00</lastmod>

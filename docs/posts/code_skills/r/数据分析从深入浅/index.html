@@ -31,7 +31,7 @@
   
   
 
-  <link rel="icon" type="image/png" href="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_3.png" />
+  <link rel="icon" type="image/png" href="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_2.png" />
 
 <meta property="og:title" content="数据分析由深入浅" />
 <meta property="og:description" content="Description" />
@@ -100,7 +100,7 @@
     </button>
     <a class="navbar-brand" href="/">
       
-        <img src="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_3.png" alt="Logo">
+        <img src="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_2.png" alt="Logo">
       Jesse&#39;s Blog</a>
     <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
       <span class="navbar-toggler-icon"></span>
@@ -114,10 +114,10 @@
   </div>
   
   
-    <img src="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+    <img src="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_2.png" class="d-none" id="main-logo" alt="Logo">
   
   
-    <img src="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+    <img src="/images/bg/favicon_hu83e3baa4b6deb221cf8614c56a38178a_27545_42x0_resize_box_2.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
   
 </nav>
 
@@ -165,26 +165,20 @@
   
   
   
-    
-    
-  
   
     
     <li>
-      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/code_skills/">电脑技术</a>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/code_skills/">电脑技术</a>
       
-      <ul class="active">
+      <ul class="">
         
   
   
   
   
-    
-    
-  
   
     
-    <li><a class="active" href="/posts/code_skills/r/" title="R语言">R语言</a></li>
+    <li><a class="" href="/posts/code_skills/r/" title="R语言">R语言</a></li>
   
 
   
@@ -205,6 +199,31 @@
   
     
     <li><a class="" href="/posts/code_skills/python/vivan%E4%BD%BF%E7%94%A8/" title="ViVan软件使用说明">ViVan软件使用说明</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/code_skills/code_note/">Code Notes</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/code_skills/code_note/%E4%BB%80%E4%B9%88%E6%98%AF%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" title="什么是正则表达式">什么是正则表达式</a></li>
   
 
 
@@ -310,7 +329,7 @@
 <hr>
 <h2 id="数据读取">数据读取</h2>
 <h3 id="rdata数据">RData数据</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># 使用save函数保存RData数据</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># 使用save函数保存RData数据</span>
 <span style="color:#a6e22e">save</span>(data1,data2,file<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;data1.Rdata&#34;</span>)
 
 <span style="color:#75715e"># 使用load函数加载RData数据</span>
@@ -325,7 +344,7 @@
 <h3 id="操作数据库">操作数据库</h3>
 <h4 id="rjdbc包">RJDBC包</h4>
 <h4 id="dplyr包">dplyr包</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># 创建数据库链接</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># 创建数据库链接</span>
 my_db<span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">src_postgres</span>(<span style="color:#e6db74">&#39;demo&#39;</span>,<span style="color:#75715e">#数据库名称</span>
             host<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;xxx.com&#39;</span>,<span style="color:#75715e">#数据库的链接</span>
             port<span style="color:#f92672">=</span><span style="color:#ae81ff">3389</span>,<span style="color:#75715e">#端口号</span>
@@ -379,7 +398,7 @@ flights <span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">tbl<
 </li>
 </ol>
 <h4 id="vim包的使用">VIM包的使用</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#a6e22e">library</span>(VIM)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#a6e22e">library</span>(VIM)
 
 <span style="color:#75715e"># 查看多少行数据是完整的</span>
 <span style="color:#a6e22e">complete.cases</span>(data1)
@@ -392,7 +411,7 @@ data1 <span style="color:#f92672">%&gt;%</span>
 </code></pre></div><h3 id="异常值处理">异常值处理</h3>
 <p>car包：<code>outlierTest()</code>  判断异常值</p>
 <h4 id="dlookr包">dlookr包</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># 常用五个诊断函数</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># 常用五个诊断函数</span>
 <span style="color:#a6e22e">diagnose</span>() <span style="color:#75715e">#提供变量基本诊断</span>
 <span style="color:#a6e22e">diagnose_category</span>() <span style="color:#75715e">#提供分类变量诊断</span>
 <span style="color:#a6e22e">diagnose_numeric</span>() <span style="color:#75715e">#提供数值变量诊断</span>
@@ -415,7 +434,7 @@ td <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">transfor
 <p><code>library(Performanceanalytics)</code></p>
 <p><code>chart.Correlation()</code> 相关系数矩阵的更为丰富方式</p>
 <h3 id="自动数据探索报告">自动数据探索报告</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># 安装DataExplorer包</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># 安装DataExplorer包</span>
 <span style="color:#a6e22e">if </span>(<span style="color:#f92672">!</span><span style="color:#a6e22e">require</span>(devtools)) <span style="color:#a6e22e">install.packages</span>(<span style="color:#e6db74">&#34;devtools&#34;</span>)
 devtools<span style="color:#f92672">::</span><span style="color:#a6e22e">install_github</span>(<span style="color:#e6db74">&#34;boxuancui/DataExplorer&#34;</span>)
 <span style="color:#75715e"># 创建探索报告</span>
@@ -426,14 +445,14 @@ devtools<span style="color:#f92672">::</span><span style="color:#a6e22e">install
 <ol>
 <li>
 <p>无参数 KM图</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># 构建无参数模型</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># 构建无参数模型</span>
 <span style="color:#a6e22e">survfit</span>(<span style="color:#a6e22e">Surv</span>(time,time2<span style="color:#f92672">=</span>status)<span style="color:#f92672">~</span>sex,data<span style="color:#f92672">=</span>lung)
 <span style="color:#a6e22e">library</span>(surminer)
 <span style="color:#a6e22e">ggsurvplot</span>(<span style="color:#a6e22e">survfit</span>(<span style="color:#a6e22e">Surv</span>(time,status)<span style="color:#f92672">~</span><span style="color:#ae81ff">1</span>,data<span style="color:#f92672">=</span>lung))
 </code></pre></div></li>
 <li>
 <p>半参数 Cox Proportional Hazard图</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># 构建cox模型</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># 构建cox模型</span>
 cox<span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">coxph</span>(<span style="color:#a6e22e">Surv</span>(time,status)<span style="color:#f92672">~</span>age<span style="color:#f92672">+</span>sex<span style="color:#f92672">+</span>ph.karno<span style="color:#f92672">+</span>wt.loss,data<span style="color:#f92672">=</span>lung)
 <span style="color:#75715e"># 检查假设</span>
 res<span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">cox.zph</span>(cox) ;<span style="color:#a6e22e">plot</span>(res)
@@ -446,7 +465,7 @@ pc<span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">survfit</s
 </code></pre></div></li>
 <li>
 <p>参数 KM图</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># 需要定义什么分布来拟合数据</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># 需要定义什么分布来拟合数据</span>
 </code></pre></div></li>
 <li>
 <p>随机生存森林模型</p>
@@ -457,7 +476,7 @@ pc<span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">survfit</s
 <p>使用<code>prcomp()</code>;<code>psych::principal()</code></p>
 <h2 id="多维缩放">多维缩放</h2>
 <p>MDS是高维对象到低维空间的非线性投影，用于降维从而实现数据可视化。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#a6e22e">data</span>(eurodist)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#a6e22e">data</span>(eurodist)
 mds<span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">cmdscale</span>(eurodist)
 <span style="color:#a6e22e">plot</span>(mds)
 <span style="color:#a6e22e">text</span>(mds,<span style="color:#a6e22e">rownames</span>(mds))
@@ -533,6 +552,9 @@ mds<span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">cmdscale<
 
 
 
+
+  
+  
 
   
   
@@ -845,7 +867,7 @@ mds<span style="color:#f92672">&lt;-</span><span style="color:#a6e22e">cmdscale<
       <div class="row text-left">
         <div class="col-md-4">
           <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
-            <img src="/images/sections/project/favicon%2818%29%281%29_hu7d4fae40c1668230b81b6160725aea6c_24732_32x0_resize_box_3.png" alt="Toha Theme Logo">
+            <img src="/images/sections/project/favicon%2818%29%281%29_hu7d4fae40c1668230b81b6160725aea6c_24732_32x0_resize_box_2.png" alt="Toha Theme Logo">
             Jesse
           </a>
         </div>
