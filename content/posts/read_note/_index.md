@@ -5,5 +5,5 @@ menu:
     sidebar:
         name: 读书笔记
         identifier: 读书笔记
-        weight: 90
+        weight: 80
 ---
