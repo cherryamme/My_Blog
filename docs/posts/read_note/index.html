@@ -276,6 +276,15 @@
   
   
     
+    <li><a class="" href="/posts/mess/" title="十分杂乱">十分杂乱</a></li>
+  
+
+  
+  
+  
+  
+  
+    
     <li><a class="" href="/posts/life_thoughts/" title="一些想法">一些想法</a></li>
   
 
@@ -395,7 +404,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://cherryamme.com#experiences">教育经历</a>
+                  <a class="smooth-scroll" href="https://cherryamme.com#projects">项目</a>
                 </li>
               
               
@@ -404,7 +413,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://cherryamme.com#projects">项目</a>
+                  <a class="smooth-scroll" href="https://cherryamme.com#experiences">教育经历</a>
                 </li>
               
               
@@ -472,16 +481,18 @@
     <div class="container">
       <div class="row text-left">
         <div class="col-md-4">
-          <a id="theme" href="https://github.com/hossainemruz/toha" target="_blank" rel="noopener">
+          <a id="theme" href="https://github.com/cherryamme" target="_blank" rel="noopener">
             <img src="/images/sections/project/favicon%2818%29%281%29_hu7d4fae40c1668230b81b6160725aea6c_24732_32x0_resize_box_2.png" alt="Toha Theme Logo">
             Jesse
           </a>
         </div>
-        <div class="col-md-4 text-center">© 2022 Copyright.</div>
+        <div class="col-md-4 text-center">人生在勤,不索何获</div>
         <div class="col-md-4 text-right">
-          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">人生在勤,不索何获
           
-          </a>
+          
+          
+          <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+          <span id="busuanzi_container_site_pv">我的小站总访问量: <span id="busuanzi_value_site_pv"></span>次</span>
         </div>
       </div>
     </div>
@@ -502,6 +513,37 @@
     
     <script src="/js/list.js"></script>
 
-
+    <script src="/js/fairyDustCursor.js"></script>
+    <script src="/js/cursor.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      var a_idx = 0;
+      jQuery(document).ready(function($) {
+          $("body").click(function(e) {
+              var a = new Array("富强","民主","文明","和谐","自由","平等","公正","法治","爱国","敬业","诚信","友善");
+              var $i = $("<span></span>").text(a[a_idx]);
+              a_idx = (a_idx + 1) % a.length;
+              var x = e.pageX,
+              y = e.pageY;
+              $i.css({
+                  "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+                  "top": y - 20,
+                  "left": x,
+                  "position": "absolute",
+                  "font-weight": "bold",
+                  "color": "rgb("+~~(255*Math.random())+","+~~(255*Math.random())+","+~~(255*Math.random())+")"
+              });
+              $("body").append($i);
+              $i.animate({
+                  "top": y - 180,
+                  "opacity": 0
+              },
+              1500,
+              function() {
+                  $i.remove();
+              });
+          });
+      });
+      </script>
   </body>
 </html>
