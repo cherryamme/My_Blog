@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Jesse&#39;s Blog</title>
+    <link>https://cherryamme.com/tags/python/</link>
+    <description>Recent content in Python on Jesse&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 14 Dec 2021 17:40:16 +0800</lastBuildDate><atom:link href="https://cherryamme.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ViVan软件使用说明</title>
+      <link>https://cherryamme.com/posts/code_skills/python/vivan%E4%BD%BF%E7%94%A8/</link>
+      <pubDate>Tue, 14 Dec 2021 17:40:16 +0800</pubDate>
+      
+      <guid>https://cherryamme.com/posts/code_skills/python/vivan%E4%BD%BF%E7%94%A8/</guid>
+      <description>ViVan是检测病毒基因组DNA突变的软件,原先软件为python2.6版本编写，&lt;em&gt;该版本py脚本已经被我改为3.X版本。&lt;/em&gt; 可能会引发一些未知的问题。</description>
+    </item>
+    
+  </channel>
+</rss>
