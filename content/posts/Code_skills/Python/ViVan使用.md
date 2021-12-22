@@ -11,7 +11,7 @@ menu:
     identifier: ViVan软件使用说明
     parent: Python
     weight: 20
-hero: images/posts/umbrella.jpg
+hero: images/posts/umbrella.webp
 tags: ["Markdown","Python","academic"]
 categories: ["Basic"]
 ---
@@ -20,7 +20,7 @@ categories: ["Basic"]
 # **ViVan** Fix Version
 [![GitHub stars](https://img.shields.io/github/stars/cherryamme/ViVan?color=red&logo=Adafruit)](https://github.com/cherryamme/ViVan/stargazers)  ![GitHub repo size](https://img.shields.io/github/repo-size/cherryamme/ViVan?color=yellow&label=Project%20Size&logo=Blueprint)   ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/cherryamme/ViVan?logo=Python&?logoColor=red)   ![GitHub last commit](https://img.shields.io/github/last-commit/cherryamme/ViVan) 
 
-![Vivanlogo](/img_ViVan/ViVan_logo.png)
+![Vivanlogo](/img_ViVan/ViVan_logo.webp)
 
 
 old_README.txt 为软件原始的说明文档，提供了软件的功能说明和参数设置。
@@ -36,7 +36,7 @@ old_README.txt 为软件原始的说明文档，提供了软件的功能说明�
 
 ## 软件流程
 
-ViVan_flow.png 显示了该软件的执行图，以/completeAnalysis.py 为核心的流程
+ViVan_flow.webp 显示了该软件的执行图，以/completeAnalysis.py 为核心的流程
 
 
 > - 以completeAnalyss为main脚本使用。
@@ -45,7 +45,7 @@ ViVan_flow.png 显示了该软件的执行图，以/completeAnalysis.py 为核�
 > - 绿色模块表示基础函数，未调用其它函数。
 > 
 
-![Vivanflow](/img_ViVan/ViVan_flow.png)
+![Vivanflow](/img_ViVan/ViVan_flow.webp)
 
 ## 配置文件:
 

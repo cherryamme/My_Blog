@@ -11,17 +11,17 @@ section:
 # Your achievements achievements
 achievements:
 - title: 爬山
-  image: /images/sections/personal/IMG_1456.JPG
+  image: /images/sections/personal/IMG_1456.webp
   summary: 人生中第一次登顶雪山，5000m入门级。
 - title: 爬山
-  image: /images/sections/personal/IMG_1446.JPG
+  image: /images/sections/personal/IMG_1446.webp
   summary: 人生中第一次登顶雪山，5000m入门级。
 - title: 做蛋糕
-  image: /images/sections/personal/IMG_0447.JPG
+  image: /images/sections/personal/IMG_0447.webp
   summary: 做个小蛋糕吃吃。
 # - title: Do cake
-#   image: /images/sections/personal/IMG_0447.JPG
+#   image: /images/sections/personal/IMG_0447.webp
 #   summary: Do cake
 # - title: Award Winner
-#   image: /images/sections/achievements/woman-winner.jpg
+#   image: /images/sections/achievements/woman-winner.webp
 #   summary: Wined best paper award at IEE Conference 2020.

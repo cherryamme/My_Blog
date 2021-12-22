@@ -38,7 +38,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://cherryamme.com/posts/introduction/%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-12-19T13:15:25+08:00" />
-<meta property="article:modified_time" content="2021-12-22T10:55:17+08:00" />
+<meta property="article:modified_time" content="2021-12-22T14:28:06+08:00" />
 
 
 
@@ -334,7 +334,7 @@
   <div class="content">
     <div class="container p-0 read-area">
       
-      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://cherryamme.com/images/posts/city.png);'>
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://cherryamme.com/images/posts/city.webp);'>
       </div>
 
       
@@ -354,23 +354,23 @@
           <h2 id="模板和生成器是什么">模板和生成器是什么?</h2>
 <p>主体是用的<a href="https://github.com/hugo-toha/toha">toha</a>, 生成器选用<a href="https://gohugo.io/">Hugo</a>, 方便管理.</p>
 <p>初始模板为如下样式:</p>
-<p><img src="/img_%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/screenshot.png" alt="Thumbnail"></p>
+<p><img src="/img_%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/screenshot.webp" alt="Thumbnail"></p>
 <p>模板可以配置中英文或多种语言的页面, 因为较为繁琐(需要对每个文件进行多语种翻译),  所以之后以中文作为主力页面.</p>
 <h2 id="博客做了哪些配置">博客做了哪些配置?</h2>
 <h3 id="首页背景和logo">首页背景和logo</h3>
 <p>Home页背景和人物头像可以自由选择, 可以是任意格式的图片, 包括gif动态图片。但是测试过了不能使用网络图片链接和视频，因为需要对图片进行多格式解析以适配不同设备，如手机和电脑显示不同分辨率的背景图片。</p>
 <p>logo可以自己设定，分别显示在首页左上角和标签页左侧logo。</p>
 <p>如图：</p>
-<p><img src="/img_%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/image-20211219122843686.png" alt="image-20211219122843686"></p>
+<p><img src="/img_%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/image-20211219122843686.webp" alt="image-20211219122843686"></p>
 <p>在root目录的config.yaml文件下的params参数内添加即可</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#75715e"># Site parameters</span>
 <span style="color:#f92672">params</span>:
 <span style="color:#75715e">#background picture</span>
-  <span style="color:#f92672">background</span>: <span style="color:#ae81ff">images/bg/car.jpg</span>
+  <span style="color:#f92672">background</span>: <span style="color:#ae81ff">images/bg/car.webp</span>
   <span style="color:#f92672">logo</span>:
-    <span style="color:#f92672">main</span>: <span style="color:#ae81ff">images/bg/favicon.png</span>
-    <span style="color:#f92672">inverted</span>: <span style="color:#ae81ff">images/bg/favicon.png</span>
-    <span style="color:#f92672">favicon</span>: <span style="color:#ae81ff">images/bg/favicon.png</span>
+    <span style="color:#f92672">main</span>: <span style="color:#ae81ff">images/bg/favicon.webp</span>
+    <span style="color:#f92672">inverted</span>: <span style="color:#ae81ff">images/bg/favicon.webp</span>
+    <span style="color:#f92672">favicon</span>: <span style="color:#ae81ff">images/bg/favicon.webp</span>
 </code></pre></div><h3 id="首页看板娘">首页看板娘</h3>
 <p>看板娘选用github项目<a href="https://github.com/stevenjoezhang/live2d-widget">live2d</a>，看照说明配置即可，在根目录layouts文件夹下的index.html页面中添加以下script即可。 如无layouts文件夹，则复制你的theme文件夹下的layouts内的index.html到根目录相同结构再添加。</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"> &lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;js/autoload.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
@@ -423,12 +423,12 @@
 &lt;<span style="color:#f92672">li</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">{{</span> <span style="color:#a6e22e">printf</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">tencent:</span><span style="color:#960050;background-color:#1e0010">//</span><span style="color:#a6e22e">message</span><span style="color:#960050;background-color:#1e0010">/?</span><span style="color:#a6e22e">uin</span><span style="color:#f92672">=</span><span style="color:#e6db74">%s&amp;Site=&amp;Menu=yes&#34;</span> <span style="color:#960050;background-color:#1e0010">$</span><span style="color:#a6e22e">value</span> <span style="color:#960050;background-color:#1e0010">}}</span> <span style="color:#a6e22e">target</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;_blank&#34;</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;noopener&#34;</span>&gt;
 &lt;<span style="color:#f92672">span</span>&gt;&lt;<span style="color:#f92672">i</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;fab fa-qq&#34;</span>&gt;&lt;/<span style="color:#f92672">i</span>&gt;&lt;/<span style="color:#f92672">span</span>&gt; &lt;<span style="color:#f92672">span</span>&gt;{{ $value }}&lt;/<span style="color:#f92672">span</span>&gt;
 &lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
-</code></pre></div><p><img src="/img_%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/image-20211219124641554.png" alt="image-20211219124641554"></p>
+</code></pre></div><p><img src="/img_%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/image-20211219124641554.webp" alt="image-20211219124641554"></p>
 <p>页尾栏更改为如下：</p>
 <p>需要在footer.html文件更改参数，并添加<a href="https://busuanzi.ibruce.info/">不蒜子</a>网页统计量计数。</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">async</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
 &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;busuanzi_container_site_pv&#34;</span>&gt;我的小站总访问量: &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;busuanzi_value_site_pv&#34;</span>&gt;&lt;/<span style="color:#f92672">span</span>&gt;次&lt;/<span style="color:#f92672">span</span>&gt;
-</code></pre></div><p><img src="/img_%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/image-20211219124833664.png" alt="image-20211219124833664"></p>
+</code></pre></div><p><img src="/img_%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%E4%B9%8B%E8%B7%AF/image-20211219124833664.webp" alt="image-20211219124833664"></p>
 
         </div>
 
@@ -707,7 +707,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://cherryamme.com#experiences">教育经历</a>
+                  <a class="smooth-scroll" href="https://cherryamme.com#projects">项目</a>
                 </li>
               
               
@@ -716,7 +716,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://cherryamme.com#projects">项目</a>
+                  <a class="smooth-scroll" href="https://cherryamme.com#experiences">教育经历</a>
                 </li>
               
               

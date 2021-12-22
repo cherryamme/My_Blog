@@ -12,7 +12,7 @@ menu:
     identifier: R数据科学
     parent: 读书笔记
     weight: 20
-hero: images/posts/car.jpg
+hero: images/posts/car.webp
 tags: ["Markdown","Content Organization","Multi-lingual"]
 categories: ["Basic"]
 ---
@@ -27,11 +27,11 @@ categories: ["Basic"]
 
 每个图层都可以设置自己的数据.
 
-![1](/img_R_数据科学/image-20211210162952819.png)
+![1](/img_R_数据科学/image-20211210162952819.webp)
 
 
 
-![image-20211210162952819](/img_R_数据科学/image-20211210162952819.png)
+![image-20211210162952819](/img_R_数据科学/image-20211210162952819.webp)
 
 `geom_bar()` 有三种方式: "identity",  "fill",  "dodge"
 
@@ -39,7 +39,7 @@ categories: ["Basic"]
 
 ### 配色方案
 
-![image-20211210183521408](/img_R_数据科学/image-20211210183521408.png)
+![image-20211210183521408](/img_R_数据科学/image-20211210183521408.webp)
 
 
 
@@ -73,19 +73,19 @@ categories: ["Basic"]
 
 `fct_recode()`:  修改因子水平名称
 
-![image-20211210172723259](/img_R_数据科学/image-20211210172723259.png)
+![image-20211210172723259](/img_R_数据科学/image-20211210172723259.webp)
 
 `fct_collapse()`:  合并不同因子水平
 
-![image-20211210172625188](/img_R_数据科学/image-20211210172625188.png)
+![image-20211210172625188](/img_R_数据科学/image-20211210172625188.webp)
 
 ## 管道使用
 
-![image-20211210173053241](/img_R_数据科学/image-20211210173053241.png)
+![image-20211210173053241](/img_R_数据科学/image-20211210173053241.webp)
 
 ### 编写适配管道的函数
 
-![image-20211210173630001](/img_R_数据科学/image-20211210173630001.png)
+![image-20211210173630001](/img_R_数据科学/image-20211210173630001.webp)
 
 
 
@@ -97,7 +97,7 @@ categories: ["Basic"]
 
 循环索引使用 `seq_along()`更好.
 
-![image-20211210174457601](/img_R_数据科学/image-20211210174457601.png)
+![image-20211210174457601](/img_R_数据科学/image-20211210174457601.webp)
 
 
 
@@ -109,21 +109,21 @@ categories: ["Basic"]
 
 `map2()`
 
-![image-20211210175709546](/img_R_数据科学/image-20211210175709546.png)
+![image-20211210175709546](/img_R_数据科学/image-20211210175709546.webp)
 
 `pmap()`
 
-![image-20211210175802056](/img_R_数据科学/image-20211210175802056.png)
+![image-20211210175802056](/img_R_数据科学/image-20211210175802056.webp)
 
 `invoke_map()`
 
-![image-20211210175830654](/img_R_数据科学/image-20211210175830654.png)
+![image-20211210175830654](/img_R_数据科学/image-20211210175830654.webp)
 
 #### 预测函数
 
 `keep()`,  `discard()`,  `some()`,  `every()`
 
-![image-20211210175907866](/img_R_数据科学/image-20211210175907866.png)
+![image-20211210175907866](/img_R_数据科学/image-20211210175907866.webp)
 
 
 
@@ -149,14 +149,14 @@ categories: ["Basic"]
 - message
 - warning
 
-![image-20211210182743784](/img_R_数据科学/image-20211210182743784.png)
+![image-20211210182743784](/img_R_数据科学/image-20211210182743784.webp)
 
 简要图:
 
-![image-20211210182815602](/img_R_数据科学/image-20211210182815602.png)
+![image-20211210182815602](/img_R_数据科学/image-20211210182815602.webp)
 
 ### rmarkdown 设置缓存
 
 避免运行花费太多时间
 
-![image-20211210183257320](/img_R_数据科学/image-20211210183257320.png)
+![image-20211210183257320](/img_R_数据科学/image-20211210183257320.webp)

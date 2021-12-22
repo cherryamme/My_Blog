@@ -22,7 +22,7 @@ buttons:
 # your projects
 projects:
 - name: ViVan
-  logo: /images/sections/project/ViVan.png
+  logo: /images/sections/project/ViVan.webp
   role: Contributor
   timeline: "Jul 2021 - Present"
   repo: https://github.com/cherryamme/ViVan # If your project is a public repo on GitHub, then provide this link. it will show star count.
@@ -31,7 +31,7 @@ projects:
   tags: ["Academic", "Python"]
 
 - name: ViruSeurat
-  logo: images/sections/project/git猫.png
+  logo: images/sections/project/git猫.webp
   role: Main Developer
   timeline: "Jul 2021 - Present"
   repo: https://github.com/cherryamme/ViruSeurat
@@ -40,7 +40,7 @@ projects:
   tags: ["Academic", "hobby","Data science"]
 
 - name: MachineLearning_bookdown
-  logo: images/sections/project/favicon(12).png
+  logo: images/sections/project/favicon(12).webp
   role: Main Developer
   timeline: "Jun 2019 - Present"
   repo: https://github.com/cherryamme/MachineLearning_bookdown
@@ -50,7 +50,7 @@ projects:
 
 
 - name: yuce_Vlook
-  logo: images/sections/project/favicon(14).png
+  logo: images/sections/project/favicon(14).webp
   role: Main completion
   timeline: "Jun 2019 - Present"
   repo: https://github.com/cherryamme/yuce_Vlook
@@ -61,7 +61,7 @@ projects:
 
 
 - name: singlecellCOVID-19
-  logo: images/sections/project/favicon(13).png
+  logo: images/sections/project/favicon(13).webp
   role: Main Developer
   timeline: "Jun 2019 - Present"
   repo: https://github.com/cherryamme/singlecellCOVID-19

@@ -62,14 +62,14 @@ badges:
 - type: certification
   name: Linux shell
   url: "https://www.linux.org/"
-  badge: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Icons8_flat_linux.svg/1024px-Icons8_flat_linux.svg.png"
+  badge: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Icons8_flat_linux.svg/1024px-Icons8_flat_linux.svg.webp"
 
 - type: certification
   name: Python language
   url: "https://www.python.org/"
-  badge: "https://img.icons8.com/dusk/2x/python.png"
+  badge: "https://img.icons8.com/dusk/2x/python.webp"
 
 - type: certification
   name: R language
   url: "https://www.r-project.org/"
-  badge: "http://pngimg.com/uploads/letter_r/letter_r_PNG93952.png"
+  badge: "http://pngimg.com/uploads/letter_r/letter_r_PNG93952.webp"
