@@ -14,7 +14,7 @@ skills:
 - name: R language
   logo: "/images/sections/skills/Rlogo.webp"
   summary: "R是统计计算和图形的语言和环境。🛠，也是我的主力数据科学语言。主要用它来做数据相关的操作，如机器学习、可视化等。
-  最近用它写了个R包😎(得意)，包里用了闭包,S3对象等用法,之后尝试用S4对象和非标准计算法。"
+  最近用它写了个R包😎，包里用了闭包,S3对象等用法(很简单),之后尝试用S4对象和非标准计算法。"
   url: "https://www.r-project.org/"
 
 - name: Python
@@ -24,16 +24,16 @@ skills:
 
 - name: Tableau
   logo: "images/sections/skills/tableau2.svg"
-  summary: "Tableau✨是数据可视化的优秀软件，从数据源到报表分享一站式完成，当然得掌握，虽然要钱，在试用期内狠学了一把。"
+  summary: "Tableau✨是数据可视化的优秀软件，从数据源到报表分享一站式完成，使用一段时间还是蛮好用的。"
   url: "https://www.tableau.com/"
 
 
 - name: MySQL
   logo: "images/sections/skills/mySQL2.webp"
-  summary: "MySQL是数据库语言，目前暂时没有需要用的的地方，但是必须得会，仅限于自己电脑💻装了一个然后练习四种操作命令：DDl,DML,DCL,DQL"
+  summary: "MySQL是数据库语言，目前暂时没有需要用的的地方，找工作的时候学了一段时间，仅限于自己电脑💻装了一个然后练习四种操作命令：DDl,DML,DCL,DQL"
   url: "https://www.tableau.com/"
 
 
 - name: Linux shell
   logo: "/images/sections/skills/linux3.webp"
-  summary: "Linux 当然不用说啦，最早接触的环境，啥都要在服务器上跑🧐(PS：现在有windows的服务器吗?)"
+  summary: "Linux，最早接触的环境，啥都要在服务器上跑🧐(PS：现在有windows的服务器吗?)"

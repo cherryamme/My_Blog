@@ -36,7 +36,7 @@ projects:
   timeline: "Jul 2021 - 至今"
   repo: https://github.com/cherryamme/ViruSeurat
   #url: ""
-  summary: ViruSeurat是用于检查单个细胞数据中的转座子表达和病毒侵入的R软件，完全由我个人开发。
+  summary: ViruSeurat是用于检查单个细胞数据中的转座子表达和病毒侵入的R软件，完全由我个人开发（其实就是简单的包装流程）。
   tags: ["Academic", "hobby","Data science"]
 
 - name: MachineLearning_bookdown
@@ -44,7 +44,7 @@ projects:
   role: 主要开发者
   timeline: "Jun 2019 - 至今"
   repo: https://github.com/cherryamme/MachineLearning_bookdown
-  summary: "这是我自己写的机器学习入门书，主要使用随机森林模型预测泰坦尼克号幸存者。
+  summary: "自己写的机器学习教程板书，主要使用随机森林模型预测泰坦尼克号幸存者，特别easy。
   希望你帮助到你。"
   tags: ["hobby","Data science","Academic"]
 
@@ -54,7 +54,7 @@ projects:
   role: 主要完成者
   timeline: "Jun 2019 - 至今"
   repo: https://github.com/cherryamme/yuce_Vlook
-  summary: "裕策公司的面试要求做题，看着好像挺有用的，就做了书。"
+  summary: "裕策公司的面试要求做题，看着好像挺有用的，就做了板书展示。"
   tags: ["Data science","Academic","examine"]
 
 

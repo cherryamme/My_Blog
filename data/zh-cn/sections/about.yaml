@@ -21,7 +21,7 @@ resume: "upgrading.gif"
 summary: '我是  姜辰  ，正在[中山大学]("https://www.sysu.edu.cn")专业攻读生物信息学硕士，目前已经研三啦💪💪💪
 我的专业在于发现人类和疾病之间的关系，解释疾病(一般为癌症)机理，攻克疾病。
 兴趣是钻研电脑技术。
-有时，我在一些有趣的项目上工作，如模型预测、开发R包等。'
+喜欢弄些乱七八糟对自己的学术能力没有提高的东西，学了很多很乱的计算机能力。'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -67,9 +67,9 @@ badges:
 - type: certification
   name: Python language
   url: "https://www.python.org/"
-  badge: "https://img.icons8.com/dusk/2x/python.webp"
+  badge: "https://img.icons8.com/dusk/2x/python.png"
 
 - type: certification
   name: R language
   url: "https://www.r-project.org/"
-  badge: "http://pngimg.com/uploads/letter_r/letter_r_PNG93952.webp"
+  badge: "http://pngimg.com/uploads/letter_r/letter_r_PNG93952.png"
